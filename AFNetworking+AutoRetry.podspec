@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
 
   s.source_files = '*.{h,m}'
 
-  s.dependency 'AFNetworking', '~> 2'
+  s.dependency 'AFNetworking/NSURLConnection', '~> 2'
   s.dependency 'ObjcAssociatedObjectHelpers'
 end
